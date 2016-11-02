@@ -1,0 +1,94 @@
+body{
+	background-color: #5B1865;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#5B1865,
+  		#5B1865 10px,
+  		#FFFF00 10px,
+  		#FFFF00 20px
+);
+
+}
+
+#about-me-wrap {
+	background-color: #000;
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+}
+
+h1 {  
+	border-bottom: 5px solid #000;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+p {
+	font-family: 'Indie Flower', cursive;
+	color: #fff;
+}
+
+
+#profile-wrap {
+     width: 40%;
+     margin-right: 10%;
+     float: left;
+}
+
+#profile-wrap img {
+	width: 100%;
+}
+
+#bio-wrap {
+     width: 50%;
+     float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+ul.profile-social-links {
+		padding: 0;
+		color: #fff;
+}
+
+}
+
+ul.profile-social-links li {
+	list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.links {
+	text-decoration: none;
+	font-family: 'gregshand', 'Georgia', serif;
+	font-size: 20px;
+}
+
+@font-face {
+	font-family: 'gregshand';
+	src: url('../fonts/gregshand.TTF');
+}
+
+/*@media only screen and (max-width: 767px) {
+	#profile-wrap {
+	   width: 100%!important;
+	   float: none!important;
+	   margin-right: 0!important;
+	}
+	#bio-wrap {
+    	width: 100%!important;
+    	float: none!important;
+    	margin-top: 50px!important;
+	}
+}*/
+
+
+
+
+
